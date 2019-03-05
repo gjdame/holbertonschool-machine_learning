@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
+"""concat arrays"""
 
 
 def cat_arrays(arr1, arr2):
     """concat arrays"""
     res = []
-    if arr1 and arr2:
-        res = arr1 + arr2
-        return(res)
+    res = arr1 + arr2
+    return(res)
