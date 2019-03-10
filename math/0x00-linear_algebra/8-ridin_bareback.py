@@ -1,4 +1,8 @@
+#!/usr/bin/env python3
+
+
 def mat_mul(mat1, mat2):
+    ''' multiply matricies without numpy '''
     res = []
     # if length of rows of mat1 do not equal length of colums of mat2
     if len(mat1[0]) != len(mat2):
