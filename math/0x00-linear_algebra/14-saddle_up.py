@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
+'''multiplies matricies'''
 import numpy as np
-
-'''multiplies matrices'''
 
 
 def np_matmul(mat1, mat2):
