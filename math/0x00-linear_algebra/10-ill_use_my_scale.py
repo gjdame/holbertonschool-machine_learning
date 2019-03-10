@@ -3,4 +3,5 @@
 
 
 def np_shape(matrix):
+    '''retun shape of matrix'''
     return (matrix.shape)
