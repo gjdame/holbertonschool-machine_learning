@@ -6,9 +6,10 @@
 def matrix_transpose(matrix):
     """transpose without numpy"""
     res = []
+    print(len(matrix))
     for i in range(len(matrix[0])):
         r = []
-        for j in range(len(matrix[i])):
+        for j in range(len(matrix)):
             r.append(matrix[j][i])
         res.append(r)
     return(res)
